@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.root{
+    height: 100vh;
+    width: 100%;
+}
+
+.welcome-section{
+    height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    background-color: #854BA8;
+}
+
+.custom-title{
+    max-width: 275px;
+    font-size: 63px;
+    font-weight: 400;
+    font-family: 'Faster One', cursive;
+    color: #F5DB50;  
+}
+
+
+.start-button{
+    padding: 8px 87px;
+    font-size: 27px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Baloo 2', cursive;
+    color: #FFFFFF;
+    background-color: #0B1125;
+}
+
+.img-contenedor{
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.imagen{
+    height: 140px;
+    width: 55px;
+    object-position: 0px 50px;
+}
